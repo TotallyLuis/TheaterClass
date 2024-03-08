@@ -2,7 +2,7 @@
 #ifndef THEATER_H
 #define THEATER_H
 
-//2. library inclsuions
+//2. library inclusions
 #include <string>
     using std::string;
 #include <array>
@@ -33,13 +33,13 @@ class Theater
     //getters do not return parameters
     int getTheaterNumber();
     std::string getCurrentMovie();
-    //stters are void and do not return anything
+    //sitters are void and do not return anything
     void setCurrentMovie(std::string newMovie);
 
     //7.member functions
     void assignSeat(int row, int col);
     void releaseSeat(int row, int col);
-    bool isSeatAvailible(int row, int col);
+    bool isSeatAvailable(int row, int col);
 
 
 };
